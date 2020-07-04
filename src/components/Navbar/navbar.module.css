@@ -1,0 +1,29 @@
+.nfLogo {
+  fill: #e50914;
+  line-height: normal;
+}
+.screenReaderText {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+@media only screen and (max-width: 1449px) and (min-width: 950px) {
+  .svgiconnetflixlogo {
+    height: 36px;
+    width: 134px;
+  }
+}
+@media only screen and (max-width: 549px) {
+  .svgiconnetflixlogo {
+    height: 20px;
+    width: 100px;
+  }
+}
+.Btn {
+  background: #e50914;
+  padding: 10px 16px;
+  outline: none;
+  color: white;
+  border: none;
+  transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
